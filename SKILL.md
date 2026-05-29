@@ -28,8 +28,8 @@ python3 scripts/figma_fetch.py "<figma_url>"
 
 **MasterGo 链接:**
 ```bash
-# 需要通过 MasterGo DSL API 获取
-# 外部已有对应的 mastergo skill
+# 通过 MasterGo DSL API 获取文件结构、颜色、字体
+python3 scripts/mastergo_fetch.py "<mastergo_url>"
 ```
 
 **其他输入（截图 / 描述）:**
