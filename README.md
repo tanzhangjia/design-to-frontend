@@ -22,8 +22,11 @@
 ## 快速开始
 
 ```bash
-# 获取 Figma 设计数据
+# Figma 设计稿数据获取
 python3 scripts/figma_fetch.py "<figma_url>"
+
+# MasterGo 设计稿数据获取
+python3 scripts/mastergo_fetch.py "<mastergo_url>"
 ```
 
 ## 环境变量
@@ -35,10 +38,11 @@ python3 scripts/figma_fetch.py "<figma_url>"
 
 ```
 design-to-frontend/
-├── SKILL.md
+├── SKILL.md                      # 主说明 — 工作流、组件映射规则、项目模板
 ├── scripts/
-│   └── figma_fetch.py
-├── references/
-│   ├── antd-echarts-patterns.md
-│   └── deployment.md
+│   ├── figma_fetch.py            # Figma REST API 数据抓取
+│   └── mastergo_fetch.py         # MasterGo DSL API 数据抓取
+└── references/
+    ├── antd-echarts-patterns.md  # 单 HTML 模式模板
+    └── deployment.md             # 部署指南
 ```
